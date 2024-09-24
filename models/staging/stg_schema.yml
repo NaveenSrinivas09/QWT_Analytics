@@ -6,9 +6,9 @@ models:
       columns:
           - name: CUSTOMERID
             description: "The primary key for this table"
-            # tests:
-            #   - unique:
-            #   - not_null:
+            tests:
+              - unique
+              - not_null
           - name: COMPANYNAME
             description: "company name"
           - name: CONTACTNAME
@@ -29,24 +29,39 @@ models:
             description: "zip code"
           - name: STATEPROVINCE
             description: "state province"
-    # - name: stg_products
-    #   description: "stage product table"
-    #   columns:
-    #       - name: ProductID
-    #         description: "product id"
-    #       - name: ProductName
-    #         description: "product name"
-    #       - name: SupplierID
-    #         description: "supplier id"
-    #       - name: CategoryID
-    #         description: "category id"
-    #       - name: QuantityPerUnit
-    #         description: "quantity per unit"
-    #       - name: UnitCost
-    #         description: "unit code"
-    #       - name: UnitPrice
-    #         description: "unit price"
-    #       - name: UnitsInStock
-    #         description: "unit in stock"
-    #       - name: UnitsOnOrder
-            # description: "Units order"
+    - name: stg_products
+      description: "stage product table"
+      columns:
+          - name: "ProductID"
+            description: "product id"
+          - name: "ProductName"
+            description: "product name"
+          - name: "SupplierID"
+            description: "supplier id"
+          - name: "CategoryID"
+            description: "category id"
+          - name: "QuantityPerUnit"
+            description: "quantity per unit"
+          - name: "UnitCost"
+            description: "unit code"
+          - name: "UnitPrice"
+            description: "unit price"
+          - name: "UnitsInStock"
+            description: "unit in stock"
+          - name: "UnitsOnOrder"
+            description: "Units order"
+    - name: stg_shipments
+      description: 'shipment table'
+      columns:
+        - name: ORDERID
+          # tests:
+          #   - not_null_check:
+          #       alias: stg_shipment_not_null
+          #       config:
+          #         store_failures: true
+        - name: LINENO
+        - name: SHIPPERID
+        - name: CUSTOMERID
+        - name: PRODUCTID
+        - name: EMPLOYEEID
+        - name: SHIPMENTDATE

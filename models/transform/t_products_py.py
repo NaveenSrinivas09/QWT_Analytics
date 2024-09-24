@@ -1,10 +1,20 @@
-# def prodavailable(x, y):
-#     return x - y
+# from snowflake.snowpark.functions import col, iff
+
+# # def prodavailable(x, y):
+# #     return x - y
 
 
 # def model(dbt, session):
-#     dbt.config(materialized="incremental", schema="transform")
-#     df = dbt.ref("stg_orders_py")
+#     dbt.config(materialized="table", schema="transform")
+#     temp_df = dbt.ref("stg_products")
 
-#     df = temp_df.withColumn
-#             ("productavailability",iff(prodavailable(temp_df["unitsinstock"], temp_df["unitsonorder"]) > 0,lit("yes"),lit(no"),),)
+#     df = temp_df.with_column(
+#         "productavailability",
+#         iff(
+#             (col("UnitsInStock") - col("UnitsOnOrder")) > 0,
+#             "product is not available",
+#             "product is available",
+#         ),
+#     )
+
+#     return df
