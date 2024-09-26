@@ -1,0 +1,36 @@
+EmpID,Last Name,First Name,Title,Hire Date,Office,Extension,Reports To,Year Salary
+24,Crawford,Judy,Systems Manager,06/08/05,1,200,19,50400.00
+1,Roll,Frank,Sales Representative,10/01/03,2,501,4,61000.00
+2,Presley,Erik,President,09/14/03,1,101,,180000.00
+3,Carsson,Rob,Sales Representative,10/01/04,5,102,4,63000.00
+9,Brolin,Helen,Sales Representative,02/15/07,1,103,4,60000.00
+42,Ärlig,Östen,Account Manager,12/24/03,1,104,3,51000.00
+52,Ashkenaz,Mike,Account Manager,11/30/04,1,-,42,49500.00
+7,Lindwall,Tom,Sales Representative,02/22/07,2,201,4,61000.00
+8,Shine,Leif,Sales Coordinator,03/05/04,2,202,2,65000.00
+19,Lawson,David,Product Manager,10/10/03,2,222,8,55500.00
+23,Sandu,Cezar,Systems Manager,02/22/03,2,200,19,51000.00
+43,Park,Bob,Account Manager,10/09/04,2,203,7,50000.00
+44,Kent,Andrew,Account Manager,01/31/04,2,204,7,55000.00
+4,Callins,Joan,Sales Manager,09/03/04,3,301,2,120000.00
+5,Hendrix,Ingrid,Sales Representative,10/17/05,3,302,4,61300.00
+20,Cleaves,John,Product Manager,10/03/04,3,333,8,55000.00
+32,Wesenlund,Rolf,Storeman,07/29/05,3,300,20,50300.00
+33,Lindquist,Ann,Storeman,01/11/04,3,300,20,50100.00
+36,Clouseau,Jacques,Storeman,08/02/05,3,300,20,51000.00
+45,Cheng,Joe,Account Manager,08/02/05,3,303,5,52000.00
+46,Alpan,Kaya,Account Manager,01/21/04,3,304,5,51000.00
+51,Lanza,Luke,Operator/Clerk,01/03/03,3,-,4,35700.00
+6,Skoglund,Lennart,Sales Representative,01/17/04,4,401,4,61200.00
+21,Takako,Miro,Product Manager,02/22/05,4,444,8,55000.00
+37,Tessel,Jerry,Network Manager,08/02/03,4,400,21,72000.00
+38,Applegate,John,Network Manager,09/02/06,4,400,21,68000.00
+39,Salvatori,Marcus,Storeman,01/07/05,4,400,21,51000.00
+41,Gupta,Sunil,Storeman,01/04/07,4,400,21,50000.00
+47,Tyson,Michelle,Account Manager,02/01/07,4,402,6,50000.00
+48,Gucci,Ricardo,Account Manager,01/01/04,4,403,6,47600.00
+22,Protzmann,Binh,Product Manager,03/06/04,5,555,8,56000.00
+27,Kregler,Mario,Systems Manager,06/05/04,5,500,22,51300.00
+29,Stevenson,Sven,Storeman,01/29/04,5,500,22,51000.00
+30,Baumel,Ira,Storeman,12/31/07,5,500,22,50200.00
+161,Lind,Stefan,Account Manager,12/28/05,5,-,27,49500.00
