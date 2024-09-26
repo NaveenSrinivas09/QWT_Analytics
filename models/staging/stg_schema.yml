@@ -54,11 +54,11 @@ models:
       description: 'shipment table'
       columns:
         - name: ORDERID
-          # tests:
-          #   - not_null_check:
-          #       alias: stg_shipment_not_null
-          #       config:
-          #         store_failures: true
+          tests:
+            - not_null_check:
+                alias: stg_shipment_not_null
+                config:
+                  store_failures: true
         - name: LINENO
         - name: SHIPPERID
         - name: CUSTOMERID
