@@ -2,7 +2,7 @@
 
 #### create these raw tables and load the data from source s3/ stage
 
-#### few copy statements are missing, manage the copy script accordingly
+#### few copy statements are missing, load the data from flat file located in *project_resources/data* folder
 
 ```
 create warehouse COMPUTE_WH;
@@ -122,7 +122,7 @@ CREATE OR REPLACE FILE FORMAT UL_CS
 
 CREATE STAGE raw_stage
 URL='s3://qwtdbtdata' 
-CREDENTIALS=(AWS_KEY_ID='AKIAZ3ENE5SNQEZ4XANI' AWS_SECRET_KEY='rW1IPgeopE1igvOkR6xa+ukSQDqKQwqV5TWqaHSq');
+CREDENTIALS=(AWS_KEY_ID='AKIAZ3ENE5SNQEZ4XANI@123MNN' AWS_SECRET_KEY='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@123MNN');
 
 list @raw_stage;
 
