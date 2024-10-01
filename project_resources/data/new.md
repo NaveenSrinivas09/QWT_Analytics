@@ -1,3 +1,2 @@
 --new data
 
-```AWS_KEY_ID='AKIAZ3ENE5SNQEZ4XANI' AWS_SECRET_KEY='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```
